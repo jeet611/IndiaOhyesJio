@@ -1,0 +1,32 @@
+{
+    "version": "0.0.1",
+    "name": "HolloVibe",
+    "fullscreen": true,
+    "description": "A New World Is Rising. Let’s Discover It.",
+    "type": "privileged",
+    
+    "theme_color":"#6456A3",
+    "ime_default_softkey_bar": true,
+    "cursor": true,
+    "origin": "https://cranky-hamilton-fc6b8c.netlify.app/",
+    "permissions": {
+      "spatialnavigation-app-manage": {}
+    },
+    "launch_path": "/src/pages/index.js",
+    "developer": {
+      "name": "Hollovibe Team",
+      "url":"https://cranky-hamilton-fc6b8c.netlify.app/"
+    },
+    "display":"browser",
+    "default_locale": "en-US",
+    "locales": {
+      "en-US": {
+        "name":"HolloVibe",
+        "description":"A New World Is Rising. Let’s Discover It. Socialize with your friends, chat, share photos, your stories, do blogging, ask questions, create your own groups and more."
+      }
+    },
+    "icons": {
+      "96":"./public/icons/icon-96x96.png"
+    }
+  }
+  
