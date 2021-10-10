@@ -21,7 +21,7 @@ module.exports = {
       theme_color: "#ff6f00",
       "fullscreen": true,
       "type": "privileged",
-       "cursor": true,
+    
 
       // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
       // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
