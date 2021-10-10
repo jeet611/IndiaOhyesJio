@@ -1,40 +1,67 @@
 import * as React from "react"
 
-<link rel="manifest" href="manifest.webmanifest"></link>
+
 const IndexPage = () => {
   return (
-    <div class="h-80 w-60 bg-gray-200 flex flex-col justify-between ">
+    <div className=' w-60 h-80  '>
 
-    <div class="h-10 w-full bg-gray-900 flex justify-between items-center pl-4 pr-4">
-      <div class="h-3 w-2/5  bg-gray-200">
+    <div className=' pt-3 w-full flex justify-center'>
+      <span> Bhahmin bhojan</span>
+    </div>
+  
+  
+  
+    <div className='flex justify-between flex-col pt-7'>
+  
+      <div className=' text-xs flex flex-col pt-2'>
+        <div className=' pl-24 ml-1'>
+          <span> Name </span>
+        </div>
+        <div className=' pt-1'>
+          <input className=' w-36 ml-11  border-2 border-purple-400 rounded' />
+          </div>
+        </div>
+  
         
+      <div className=' text-xs flex flex-col pt-2'>
+        <div className=' pl-24 ml-1'>
+          <span> Email </span>
+        </div>
+        <div className=' pt-1'>
+          <input className=' w-36 ml-11  border-2 border-purple-400 rounded' />
+          </div>
+        </div>
+  
+        
+      <div className=' text-xs flex flex-col pt-2'>
+        <div className=' pl-24 ml-1'>
+          <span> Phone </span>
+        </div>
+        <div className=' pt-1'>
+          <input className=' w-36 ml-11  border-2 border-purple-400 rounded' />
+          </div>
+        </div>
+  
+        
+      <div className=' text-xs flex flex-col pt-2'>
+        <div className=' pl-24 ml-1'>
+          <span> Adress </span>
+        </div>
+        <div className=' pt-1'>
+          <input className=' w-36 ml-11  border-2 border-purple-400 rounded' />
+          </div>
+        </div>
+  
+  
       </div>
-    
-      <div class="h-3 w-3 bg-gray-200"></div>
-    </div>
-    
-    
-    <div class="w-full  h-3/6 flex justify-center items-center mt-5">
-    <div class="h-full w-full flex flex-col justify-between items-center ">
-     <div class="bg-red-600 w-2/5 h-2/3">
-    
-     </div>
       
-      <h1 class="text-center text-sm">book your pandit now  <br /> with indiaohyes </h1>
-    
-      <h2 class="text-sm">Service</h2>
+        <div className='px-24 ml-2 pt-5'>
+        <svg xmlns='http://www.w3.org/2000/svg' className='h-6 w-6' viewBox='0 0 22 22' fill='purple'>
+          <path fill-rule='evenodd' d='M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z' clip-rule='evenodd' />
+        </svg>
       </div>
-    
-    </div>
-    
-    <div class="h-1/4 bg-yellow-50 flex justify-center items-center pr-5 pl-5">
-       <div class="grid grid-cols-3 h-full w-full gap-3 py-4 ">
-         <div class="bg-yellow-900"> </div>
-            <div class="bg-yellow-300"> </div>
-               <div class="bg-yellow-300"> </div>
-       </div>
-    </div>
-    
+  
+  
     </div>
   
   )
